@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy — 2.4 GHz Explorer</title>
+  <meta name="description" content="Privacy policy for 2.4 GHz Explorer, an Android utility that reads Wi-Fi, Bluetooth, NFC, and cellular APIs.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1a1a1a;
+      --muted: #4a4a4a;
+      --bg: #fafafa;
+      --card: #ffffff;
+      --border: #e2e2e2;
+      --accent: #0b57d0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f2f2f2;
+        --muted: #c4c4c4;
+        --bg: #121212;
+        --card: #1c1c1c;
+        --border: #333333;
+        --accent: #8ab4f8;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0 0 0.5rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 2rem 0 0.6rem;
+    }
+    p, li { color: var(--text); }
+    .meta {
+      margin: 0;
+      color: var(--muted);
+      font-family: system-ui, sans-serif;
+      font-size: 0.95rem;
+    }
+    a { color: var(--accent); }
+    ul { padding-left: 1.25rem; }
+    li { margin: 0.35rem 0; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.92em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Privacy policy</h1>
+      <p class="meta">2.4 GHz Explorer · Android package <code>com.millerchnz.ghzexplorer</code></p>
+      <p class="meta">Effective 18 October 2026</p>
+    </header>
+
+    <p>
+      2.4 GHz Explorer reads the Wi-Fi, Bluetooth, NFC, and cellular APIs on this phone and
+      shows the values they return. This policy describes what the app stores and when
+      anything leaves the phone.
+    </p>
+
+    <h2>Data stored on the device</h2>
+    <p>The app stores the following in app-private storage on your device:</p>
+    <ul>
+      <li>The latest pairing events aimed at this phone: time, device name, address, bond or connection change, the pairing variant, and any numeric key Android included in that broadcast. The newest 40 events are kept.</li>
+      <li>A flag that the in-app help tour has been finished.</li>
+      <li>Map tiles cached so the Find device and list maps can draw the street map again.</li>
+      <li>Text files created when you tap Export, kept in the app cache until you share them or the system clears the cache.</li>
+    </ul>
+    <p>
+      Wi-Fi, Bluetooth, NFC, and cell readings are held in memory while the app is running.
+      They are not written to storage. A Wi-Fi password typed into Connect is passed to
+      Android’s system prompt and is not stored or logged by this app. Location samples used
+      to plot a walk stay in memory for that screen and are dropped when you leave it.
+    </p>
+    <p>
+      Pairing events and the tour flag are excluded from Android backup and from
+      device-to-device transfer. The developer does not operate a server for this app and
+      does not receive this data.
+    </p>
+
+    <h2>When data leaves the device</h2>
+    <ul>
+      <li>
+        <strong>Map tiles.</strong> The Find device and list maps load OpenStreetMap tiles
+        over HTTPS from the OpenStreetMap tile servers so they can draw the area on screen.
+        A tile request includes the coordinates of that map view.
+      </li>
+      <li>
+        <strong>Export.</strong> If you export or share a text file, that file goes to the
+        app you choose. It contains the device fields on screen, and the first and last
+        place this phone heard the device when those places were recorded, with the signal
+        strength there.
+      </li>
+    </ul>
+
+    <h2>Accounts, ads, and analytics</h2>
+    <p>
+      The app has no user accounts. It does not show ads, and it does not include an analytics
+      or crash-reporting SDK.
+    </p>
+
+    <h2>Deleting your data</h2>
+    <p>
+      Uninstalling the app deletes everything it stored, including pairing events, the tour
+      flag, cached map tiles, and export files. The developer has no copy of that data.
+      A file you already shared is held by the app you sent it to.
+    </p>
+
+    <h2>Children</h2>
+    <p>
+      2.4 GHz Explorer is a radio inspection tool aimed at people aged 18 and over. It is
+      not directed at children.
+    </p>
+
+    <h2>Changes</h2>
+    <p>
+      If this policy changes, the updated page will replace this one and the effective date
+      above will change. Continued use of the app after the new date means you accept the
+      updated policy.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about this policy:
+      <a href="mailto:one@roguemission.com">one@roguemission.com</a>
+    </p>
+  </main>
+</body>
+</html>
