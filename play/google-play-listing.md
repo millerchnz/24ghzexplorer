@@ -41,5 +41,7 @@ Map, on the Wi-Fi, Bluetooth and Radio lists, plots the devices that tab is hear
 
 This is a reader. It does not unlock a device, crack a network, confirm a PIN, or send commands. An advertisement is how a device introduces itself. It is not a security audit of a lock.
 
+Source available at: https://github.com/millerchnz/24ghzexplorer
+
 Android 8.0 or newer. Precise location has to be on before Android will return Wi-Fi scans and cell identity. Bluetooth, NFC and phone-state permissions are asked on the tab that needs them. A short tour on first launch can be replayed from Settings with Show help.
 ```
